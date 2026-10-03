@@ -474,3 +474,31 @@ https://github.com/sibisundarram-star
 
 
 
+\## Application Screenshots
+
+
+
+\### Home
+
+!\[Home](screenshots/home.png)
+
+
+
+\### Dataset Overview
+
+!\[Dataset Overview](screenshots/dataset-overview.png)
+
+
+
+\### Dashboard
+
+!\[Dashboard](screenshots/dashboard.png)
+
+
+
+\### Visualization
+
+!\[Visualization](screenshots/visualization.png)
+
+
+
