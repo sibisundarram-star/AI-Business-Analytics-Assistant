@@ -24,9 +24,8 @@ uploaded_file = st.file_uploader(
 )
 df = load_data(uploaded_file)
 
-if uploaded_file is not None:
-    df = load_data(uploaded_file)
-    if df is not None:
+if uploaded_file is not None and df is not None:
+    
         st.success("Dataset loaded successfully!")
         
 st.divider()
@@ -209,7 +208,7 @@ if df is not None:
     overview = get_dataset_overview(df)
     insights = generate_insights(df)
 
-    col1, col2 = st.columns(2)
+    col1, col2, col3 = st.columns(3)
 
     with col1:
 
